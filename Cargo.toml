@@ -13,7 +13,7 @@ exclude = ["/examples", ".license_template", "CHANGELOG.md", "/target"]
 
 [dependencies]
 anyhow = "1"
-tauri = { version = "2.0.0-rc.15", features = ["test"] }
+tauri = { version = "2.9.3", features = ["test"] }
 hyper = { version = "1", features = ["server", "http1"] }
 pin-project-lite = "0.2"
 http-body-util = "0.1"
